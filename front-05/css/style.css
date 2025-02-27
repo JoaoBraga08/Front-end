@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background: linear-gradient(rgb(255, 0, 0), blue);
+   min-height: 100vh;
+    
+}
+
+.container {
+    max-width: 350px;
+    border: 2px solid rgb(25, 25, 25);
+    margin: 30px auto;
+}
+
+.container h1, h2 {
+    font-size: 18px;
+    color: purple;
+    padding: 10px;
+}
+ 
+.form-control {
+    padding: 10px;
+}
+ 
+.form-control label {
+    font-weight: bold;
+    font-size: 14px;
+    color: brown;
+}
+ 
+.form-control input {
+    border: 2px solid brown;
+    padding: 3px;
+    outline: none;
+}
+ 
+button {
+    margin: 10px;
+    background: brown;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
